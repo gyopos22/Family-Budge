@@ -18,5 +18,7 @@ Funkciók:
   
 Felhasználók
  	Admin: admin jogú felhasználó a saját és user jogu felhasználók költéseit is látja. hozzá tud adni költést és jövedelmet,eltud 			fogadni kérvényeket
+	
 	User: csak a saját költéseit látja. Hozzá tud adni költést, és tud kérvényezni az admin jogú tagtól pénzt.
+	
 	Guest: Csak a login és a register oldal érhető el neki
