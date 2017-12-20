@@ -73,5 +73,5 @@ A RequestController a "/api/request" végpontra dolgozik. Itt igazából mindig 
 Vegyük pl a UserController osztályt. A UserController osztály a "/api/user" végpontra dolgzik. Ezen belül vegyük pl a register metódusát ami a "/register" dolgozik az elözőn belül, tehát a "/api/user/register" végpontra fog érkezni a kérés. Ezt a Controller elkapja, majd mivel csak a register metódus van ezen a végponton a register metódus tovább küldi a UserService register nevű metódusának, mely aztán a létrehozott usernek beállít még egy rolet(User vagy Admin) majd meghívja a UserRepository save metódusát, mely elmenti az adatbázisban a beadott adatokat. És itt véget ér a folyamat.
 
 
-Adatbázis:
+
 ![alt text](https://github.com/gyopos22/Family-Budge/blob/master/asd.jpg)
