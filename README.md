@@ -42,3 +42,13 @@ Nem funkcionális követelmények:
 	biztonság
 	megbízhatóság
  	könnyű kezelés
+	
+A forrás fájlok a familybudge nevű főkönyvtárban található, mely több alkönyvtárra ágazik szét:	
+	annotation	
+	config	controller
+	entity
+	repository
+	service
+
+	
+
