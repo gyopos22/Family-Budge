@@ -8,7 +8,7 @@ Az admin jogú felhasználó a saját és user jogu felhasználók költéseit i
 
 A fejlesztői környezet és eszközök bemutatása:
 
-	A project a NetBeans nevű fejlesztői környezetben készült a Maven Project, mely egy olyan fejlesztői eszköz, amivel könyen lehetelhasználni más modulokat/plug-in-eket és leszedi ehez a szükséges dependencyket(függőségeket). Valamint a Spring Boot 		felhasználásával, mely egy olyan eszköz melyel könnyen és gyorsan lehet prototipusokat létrehozni. Továbbá felhasználtuk a h2 	adatbázis motort is a projectben, mely Java SQL adatbázist vezényel, valamint a Lombok nevű plug-int aminek köszönhetőleg nem 	kell gettereket írni, valamint összehasonlító(equals) metódusokat.
+A project a NetBeans nevű fejlesztői környezetben készült a Maven Project, mely egy olyan fejlesztői eszköz, amivel könyen lehetelhasználni más modulokat/plug-in-eket és leszedi ehez a szükséges dependencyket(függőségeket). Valamint a Spring Boot 		felhasználásával, mely egy olyan eszköz melyel könnyen és gyorsan lehet prototipusokat létrehozni. Továbbá felhasználtuk a h2 	adatbázis motort is a projectben, mely Java SQL adatbázist vezényel, valamint a Lombok nevű plug-int aminek köszönhetőleg nem 	kell gettereket írni, valamint összehasonlító(equals) metódusokat.
 
 Funkciók:
 
