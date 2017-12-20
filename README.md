@@ -29,3 +29,18 @@ Felhasználók
 	User: csak a saját költéseit látja. Hozzá tud adni költést, és tud kérvényezni az admin jogú tagtól pénzt.
 	
 	Guest: Csak a login és a register oldal érhető el neki
+
+Funkcionális követelmények:
+
+• regisztráció
+• bejelentkezés
+• cikkek böngészése
+• új cikk létrehozása (author jogot igényel)
+• meglévő cikk szerkesztése (author jogot igényel)
+• cikk törlése (admin jogot igényel)
+Nem funkcionális követelmények:
+
+• gyorsaság
+• biztonság
+• megbízhatóság
+• könnyű kezelés
