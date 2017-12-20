@@ -38,6 +38,7 @@ Felhasználók
 
 Nem funkcionális követelmények:
 
+
 	gyorsaság
 	biztonság
 	megbízhatóság
