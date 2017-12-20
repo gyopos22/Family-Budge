@@ -36,11 +36,11 @@ Felhasználók
 	Guest: Csak a login és a register oldal érhető el neki
 
 A forrás fájlok a familybudge nevű főkönyvtárban található, mely több alkönyvtárra ágazik szét:	
-annotation	
-config	controller
-entity
-repository
-service
+	annotation	
+	config	controller
+	entity
+	repository
+	service
 
 Nem funkcionális követelmények:
 
