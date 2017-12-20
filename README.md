@@ -52,3 +52,15 @@ Nem funkcionális követelmények:
 
 	
 
+Végpont-tervek és leírások:
+
+A controllerek valósítják meg a végpontokat. 
+A UserController a "/api/user" végpontra dolgozik. A metódusai meg ezen belül osztódnak el 3 végső végpontra.
+A register metódus a "/register" végponton fogadja a bejövő adatokat.
+A login metódus a "/login" végponton fogadja a bejövő adatokat.
+A logout metódus a "/logout" végponton fogadja a bejövő adatokat.
+A TransactionController a "/api/transaction" végpontra dolgozik.  Itt igazából mindig az lesz a végpont ami az adott transaction id-je(azonosítója). Ezek a metódusok dolgoznak a végponra: create, update, read, delete.
+A RequestController a "/api/request" végpontra dolgozik. Itt igazából mindig az lesz a végpont ami az adott request id-je(azonosítója). Ezek a metódusok dolgoznak a végponra: create, read, update, delete.
+1db végpont működésének leírása:
+
+Vegyük pl a UserController osztályt. A UserController osztály a "/api/user" végpontra dolgzik. Ezen belül vegyük pl a register metódusát ami a "/register" dolgozik az elözőn belül, tehát a "/api/user/register" végpontra fog érkezni a kérés. Ezt a Controller elkapja, majd mivel csak a register metódus van ezen a végponton a register metódus tovább küldi a UserService register nevű metódusának, mely aztán a létrehozott usernek beállít még egy rolet(User vagy Admin) majd meghívja a UserRepository save metódusát, mely elmenti az adatbázisban a beadott adatokat. És itt véget ér a folyamat.
